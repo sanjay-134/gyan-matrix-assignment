@@ -1,0 +1,145 @@
+//html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="this is an awsome website ">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="csspage.css"
+    </head>
+    <body style="background-color: rgb(10, 227, 158);">
+    </body>
+       <h1><i>survey form for students</i></h1>
+       <form action="next.php" method="post" style="background-color: white">
+         <div>
+            <label>NAME:</label>
+            <input type="text" name="name" placeholder="enter your name">
+         </div>
+
+         <div>
+            <label>EMAIL:</label>
+            <input type="text" name="MAIL" placeholder="enter your mail">
+         </div>
+         <div>
+            <label>AGE:</label>
+            <input type="number" name="age" placeholder="enter your age">
+         </div>
+         <div>
+            <label>WHICH OPTION BEST DESCRIBES YOU:</label>
+            <select name="gen" >
+               <option value="select">select</option>
+               <option value="select">student</option>
+               <option value="intern">Intern</option>
+               <option value="professional">professional</option>
+            </select>
+         </div>
+         <div>
+            <label>LANGUAGES AND FRAMESWORKS KNOWN:</label>
+            <div>
+                <input type="checkbox"
+                name="inp">C</input>
+            </div>    
+            <div>
+                <input type="checkbox"
+                name="inp">C++</input>
+            </div>
+            <div>
+                <input type="checkbox"
+                name="inp">java</input>
+            </div>
+            <div>
+                <input type="checkbox"
+                name="inp">python</input>
+            </div>
+            <div>
+                <input type="checkbox"
+                name="inp">html</input>
+            </div>
+            <div>
+                <input type="checkbox"
+                name="inp">css</input>
+            </div>
+            <div>
+                <input type="checkbox"
+                name="inp">javascript</input>
+            </div>
+            <div>
+                <input type="checkbox"
+                name="inp">bootstrap</input>
+            </div>
+            <label>
+                do you want to learn AI technology
+            </label>
+            <DIV>
+                <input type="radio" name="option" >yes</input>
+            
+            </DIV>
+            <DIV>
+                <input type="radio" name="option" >no</input>
+            
+            </DIV>
+            <label>ANY COMMENTS OR SUGGESTION</label>
+            <div>
+                <textarea>enter your comments</textarea>
+            </div>
+            <button type="submit" name="submit" value="submit">submit</button>
+           
+
+            
+         </div>
+
+
+
+
+       </form>
+         
+    </body>
+</html>
+//html
+//css
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(5, 60, 108);
+    text-decoration: underline;
+
+}
+label{
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+}
+input
+{
+    margin-bottom: 10px;
+}
+form
+{
+    padding: 10px;
+    width: 400px ;
+    height: 800%;
+    box-shadow:  2px 5px 10px rgba(0, 0, 0, 0.906);
+    text-align: left;
+    margin:  50px auto;
+  
+}
+button{
+   
+    background-color:  rgb(10, 227, 158);
+    border-radius: 2px ;
+    border-width: 0px;
+    width: 100%;
+    height: 50%;
+    font-family: inherit;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 21px;
+    border: 1px solid #777;
+
+}
+button:hover{
+    color: blue;
+    background-color: aliceblue;
+}
+//css
